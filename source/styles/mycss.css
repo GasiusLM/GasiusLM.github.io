@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {
+    font-family: Poppins, serif;
+    background-color:rgb(233, 234, 235);
+}
+
+.nav-link {
+    color: black;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(118, 116, 116);
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: rgb(118, 116, 116);
+}
+
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar {
+    color: rgb(17, 17, 17);
+    background-color: rgb(243, 241, 238);
+}
+
+
+.card {
+    background-color: rgb(243, 241, 238);
+}
+
+.slide-text,
+.footer-text {
+    color: black;
+    margin: auto auto;
+}
+
+header {
+    background-color: rgb(79, 149, 167);
+}
+
+.carousel-indicators button {
+    background-color: rgb(183, 179, 162) !important;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim {
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+.row a {
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    position: relative;
+    margin-top: 100px; /* Измените значение отступа по вашему усмотрению */
+}
+
+section {
+    margin-bottom: 150px; /* Измените значение отступа по вашему усмотрению */
+}
+  
+  
+  
+
+
